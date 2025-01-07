@@ -51,13 +51,13 @@ In the dataset preparation phase, after conducting PCA, the dependent variable "
 
 The intercept value for the linear regression equation is: 5.640750670241287. While the model performs better on the training data compared to the test data, it suggests that the model captures some of the variability in wine quality but may not be fully capturing all relevant factors. The Mean Squared Error (MSE) on the training data is 0.4099, suggesting the model's ability to predict wine quality ratings accurately. However, on the test data, the MSE slightly increases to 0.4454, indicating a potential challenge in generalizing predictions to test instances.
 
-![Lasso](images/image8)
+![Linear](images/image8.png)
 
 ## Lasso Regression:
 
 In an attempt to get a better regression accuracy model, I implemented Lasso Regression. Features underwent transformation into polynomial features of degree 2 using PolynomialFeatures to capture potential nonlinear relationships. Following this, the dataset was divided into training and testing subsets with a ratio of 75% for training and 25% for testing, utilizing train_test_split. To enhance model convergence and performance, features were normalized using MinMaxScaler, scaling them within a specified range. Subsequently, a Lasso Regression model with cross-validated alpha selection (LassoCV) was trained on the normalized training data. R-squared scores were then calculated to evaluate the model's performance on both training and testing datasets. The R-squared score for the training data approximated 0.312, suggesting that around 31.2% of the variance in wine quality is explained by the model on the training set. Conversely, the R-squared score for the test data was approximately 0.344, indicating slightly improved performance on test data, with the model explaining around 34.4% of the variance in wine quality. Similar to the linear regression model, this suggests that the model, while demonstrating some predictive capability, may benefit from further refinement to better capture the complexities of wine quality prediction. The Mean Squared Error (MSE) on the training data is 0.4331, indicating the model's accuracy in predicting wine quality ratings. Conversely, the MSE on the test data slightly increases to 0.4706, suggesting a moderate decline in predictive performance when applied to new instances.
 
-![Lasso](images/image9)
+![Lasso](images/image9.png)
 
 ## Conclusion:
 
