@@ -35,8 +35,8 @@ To get a better understanding of the relationships between the variables, I crea
 ## Principal Component Analysis (PCA):
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="images/image6.png" alt="Graph Example" width="500" height="500">
-  <img src="images/image7.png" alt="Graph Example" width="500" height="500">
+  <img src="images/image6.png" alt="Graph Example" width="400" height="300">
+  <img src="images/image7.png" alt="Graph Example" width="400" height="300">
 </div>
 
 For dimensionality reduction, I used principal component analysis. After using StandardScaler to scale and transform my dataset, I set the components value to 9. From here, I found the explained variance ratio. The first 9 principal components in my dataset captured 97.81% of the variance. The explained variance ratio is the following: 
