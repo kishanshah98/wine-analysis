@@ -2,7 +2,7 @@
 
 This project focuses on predicting wine quality for red wine based on its chemical composition. Leveraging a dataset comprising of detailed chemical properties and quality ratings, advanced techniques such as Principal Component Analysis (PCA) and Linear Regression are utilized to uncover essential relationships. By distilling key insights, the model offers actionable insights for winemakers to optimize production processes and tailor offerings to consumer preferences. The project facilitates informed decision-making, ultimately enhancing the quality and marketability of wines in a dynamic and competitive market landscape.
 
-![download.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/a5896cf7-e3d0-41ee-9de5-8a038eaa3ec7/6f064697-7ae8-45ab-af8e-f48b73a4980f/download.jpg)
+<img src="images/image1.jpg" alt="Project Overview Image" width="400">
 
 ## Introduction:
 
@@ -24,7 +24,7 @@ Winemaking now embraces the tools of modern data science. Using a dataset contai
 
 To start off, I did some basic statistical analysis of the dataset which included the count, mean, standard deviation, min, max, and quartiles of the feature variables. In regard to the quality, or target variable, I found the number of each quality rating in the entire dataset. The most common quality rating was a 5, which is valid since it is the middle on a scale of 1-10 in which the wines were graded on.
 
-![Screenshot 2024-09-24 at 12.13.01 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a5896cf7-e3d0-41ee-9de5-8a038eaa3ec7/c049d08c-6a0b-4512-a9e3-5e1f28661fd6/Screenshot_2024-09-24_at_12.13.01_PM.png)
+![Image](images/image2.png)
 
 No clear correlations between variables and quality in this Pairplot so deeper dive is necessary.
 
