@@ -26,9 +26,11 @@ To start off, I did some basic statistical analysis of the dataset which include
 
 ![Image](images/image2.png)
 
-No clear correlations between variables and quality in this Pairplot so deeper dive is necessary.
-
-![No clear correlations between variables and quality in this Pairplot so deeper dive is necessary](https://prod-files-secure.s3.us-west-2.amazonaws.com/a5896cf7-e3d0-41ee-9de5-8a038eaa3ec7/38b89290-eb85-45c8-b172-f603a755025e/Screenshot_2024-09-24_at_12.13.56_PM.png)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="images/image3.png" alt="Graph Example" width="500" height="500">
+  <img src="images/image4.png" alt="Graph Example" width="500" height="500">
+  <img src="images/image5.png" alt="Graph Example" width="500" height="250">
+</div>
 
 To get a better understanding of the relationships between the variables, I created a pairplot, correlation plot, and a feature importance plot as shown below. The pairplot was not very telling in terms of the relationships between the variables. However, the correlation plot was helpful in finding the strongest relationships between the variables. Alcohol, volatile acidity, and sulphates had the strongest correlations with quality, which happened to be 0.476, 0.391, and 0.251, respectively. Using RandomForestRegressor from sklearn, I was able to create a feature importance plot which makes it easy to visually see which features are of the most importance when it comes to quality. In this graph, alcohol, sulphates, and volatile acidity were the top 3, just as they were in the correlation plot.
 
